@@ -1,0 +1,93 @@
+# Next Pick  
+*A Smart Recommendation System for Movies, Books, and Media*
+
+---
+
+## Overview
+**Next Pick** is a collaborative project designed to help users discover new movies, books, and other related media through personalized recommendations.  
+Using datasets from sources like **IMDB** and **Goodreads**, the system aims to provide accurate, scalable, and user-friendly suggestions.
+
+This project is being developed as part of a team effort following an **agile methodology**. Each sprint focuses on building and refining different parts of the system — from data pipelines and recommendation algorithms to UI and deployment.
+
+---
+
+## Team Roles
+- **Project Lead / Documentation:** Oversees project progress, maintains documentation, and manages task tracking.  
+- **Data Engineer:** Handles data collection, cleaning, and schema design.  
+- **Recommendation Algorithm Engineer:** Develops and tests recommendation approaches.  
+- **Frontend Developer / UI:** Designs and implements the user interface.  
+- **Testing & Deployment Engineer:** Establishes testing pipelines and deployment strategies.
+
+---
+
+## Functional Requirements
+### **Data Management**
+- Ingest datasets from IMDB and Goodreads.  
+- Clean and preprocess data for consistency.  
+- Store data in a structured format following the designed schema.
+
+### **Recommendation Engine**
+- Implement algorithms such as content-based, collaborative filtering, or hybrid methods.  
+- Provide personalized recommendations based on user profiles or item similarities.  
+- Support scalability for new recommendation strategies.
+
+### **Frontend / UI**
+- Present recommendations through a simple, intuitive interface.  
+- Allow users to search for media and view results interactively.  
+- Include mockups or skeleton screens in early development.
+
+### **Testing & Deployment**
+- Establish a testing framework for validating system components.  
+- Automate unit tests for algorithms and data pipelines.  
+- Define and document deployment processes.
+
+### **Documentation & Project Management**
+- Maintain a GitHub repository with proper README and documentation.  
+- Track tasks and progress using a project board.  
+- Keep requirements and design documents up to date.
+
+---
+
+## Non-Functional Requirements
+### **Performance**
+- Recommendation queries should return within a few seconds.  
+- System should handle large datasets efficiently.  
+
+### **Usability**
+- UI should be clean, accessible, and easy to navigate.  
+- Recommendations should be easy to interpret for end-users.  
+
+### **Reliability**
+- Handle missing or inconsistent data gracefully.  
+- Ensure consistent and accurate results across runs.  
+
+### **Maintainability**
+- Use modular, well-documented code.  
+- Update documentation as development progresses.  
+
+### **Portability**
+- Deployable across different environments (local and cloud).  
+
+---
+
+## Constraints
+- Dataset access depends on availability of public/open APIs or files.  
+- Project must be completed within sprint timelines.  
+- Must use open-source frameworks and tools.
+
+---
+
+## Deliverables
+- Cleaned datasets and schema design.  
+- Prototype recommendation algorithm.  
+- UI mockups and working skeleton.  
+- Testing framework and deployment plan.  
+- Project documentation (requirements, design, and final README).
+
+---
+
+## Getting Started
+### **Clone the Repository**
+```bash
+git clone https://github.com/your-username/NextPick.git
+cd NextPick
